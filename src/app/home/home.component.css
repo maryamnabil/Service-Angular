@@ -1,0 +1,26 @@
+/*Article Section*/
+
+		#sub3 h1 {
+			font-family: open sans bold;
+			font-size: 20px;
+		    margin-top: 120px;
+		    font-size: 25px;
+			font-weight: bold;
+		}
+		#sub3 p {
+			color:#ff8b38 ;
+			margin-top: 20px;
+			font-weight: bold;
+		}
+		#sub3 article {
+		    margin-top: 20px;
+		     color:#8e8f93;
+		text-rendering: optimizeLegibility;
+		margin-bottom: 100px;
+		}
+	/*Image Section*/	
+		#sub4 {
+			margin-top: 120px;
+		 float: right;
+		 
+		}	

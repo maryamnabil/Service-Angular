@@ -1,0 +1,17 @@
+<button (click)="getDatafromService()">Get Data</button>
+
+	<div class="col-lg-4"*ngFor="let single of result; let i= index">
+
+	    <ul *ngIf="result && i<9">
+			<li>
+		    <div class="card">
+			  <div class="card-body">
+			    <h4 class="card-title">Album ID : {{result[i].albumId}}</h4>
+			    <h4 class="card-title">picture ID : {{result[i].id}}</h4>
+			    <p class="card-text">{{result[i].title}}</p>
+			    <img src="{{result[i].thumbnailUrl}}" alt="thumbnailUrl">
+			  </div>
+			</div>
+	        </li>
+	    </ul>
+	</div>
